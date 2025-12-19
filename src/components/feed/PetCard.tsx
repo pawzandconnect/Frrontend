@@ -1,7 +1,6 @@
 import { Heart, MessageCircle, Plus } from 'lucide-react';
 import type { Pet } from '../../data/mockPets';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 
 interface PetCardProps {

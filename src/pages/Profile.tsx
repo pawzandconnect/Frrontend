@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Settings, Share2, PawPrint, Play, MapPin } from 'lucide-react';
+import { Settings, PawPrint, Play } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 export default function Profile() {

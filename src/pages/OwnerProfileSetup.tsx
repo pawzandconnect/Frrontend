@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, Camera, MapPin, X, ChevronDown, Search, Info } from 'lucide-react';
+import { ArrowLeft, Camera, X, ChevronDown, Search, Info } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
 
@@ -157,8 +157,8 @@ export default function OwnerProfileSetup() {
                             key={opt}
                             onClick={() => toggleLookingFor(opt)}
                             className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all ${formData.lookingFor.includes(opt)
-                                    ? 'bg-gray-100 text-gray-900 border border-gray-100 shadow-sm'
-                                    : 'bg-gray-50 text-gray-500 border border-transparent hover:bg-gray-100'
+                                ? 'bg-gray-100 text-gray-900 border border-gray-100 shadow-sm'
+                                : 'bg-gray-50 text-gray-500 border border-transparent hover:bg-gray-100'
                                 }`}
                         >
                             {opt}
@@ -175,8 +175,8 @@ export default function OwnerProfileSetup() {
                             key={opt}
                             onClick={() => toggleMeetupLocation(opt)}
                             className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all ${formData.meetupLocations.includes(opt)
-                                    ? 'bg-gray-100 text-gray-900 border border-gray-100 shadow-sm'
-                                    : 'bg-gray-50 text-gray-500 border border-transparent hover:bg-gray-100'
+                                ? 'bg-gray-100 text-gray-900 border border-gray-100 shadow-sm'
+                                : 'bg-gray-50 text-gray-500 border border-transparent hover:bg-gray-100'
                                 }`}
                         >
                             {opt}
